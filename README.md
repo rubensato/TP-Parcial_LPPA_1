@@ -45,7 +45,7 @@ Esta semana se evaluará:
 ---
 Link en Github Pages:
 
-https://rubensato.github.io/Minidamas2/
+https://rubensato.github.io/TP-Parcial_LPPA_1/
 
 ---
 ## Licencia y Copyright
