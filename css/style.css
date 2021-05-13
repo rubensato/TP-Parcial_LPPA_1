@@ -77,6 +77,11 @@ body{
   margin: auto;
 }
 
+.container1{
+  width: 95%;
+  margin: auto;
+}
+
 /*encabezado - menu*/
 header {
   width: 100%;
@@ -155,6 +160,44 @@ header label:hover {
   color: #72A1A2;
   text-decoration: none;
 }
+
+
+/*One Column*/
+#onecolumn {
+  width: 100%;
+  background-color: #F7F7F7;
+}
+
+#onecolumn-1 {
+  width: 100%;
+  background-color: white;
+  line-height: 2em;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-right: 2px solid #E3E3E3;
+  border-bottom: 2px solid #E3E3E3;
+}
+
+#onecolumn-1 h1 {
+  font-size: 27px;
+  color: #825177;
+  margin-bottom: 5px;
+}
+
+#onecolumn-1 h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#onecolumn-1 p {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
 
 
 /*footer*/
