@@ -73,7 +73,7 @@ body{
 }
 
 .container{
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -94,7 +94,7 @@ header {
 header a{
   color:#fff;
   text-decoration:none;
-  font-size:55px;
+  font-size:50px;
   font-weight:lighter;
 }
 
@@ -145,20 +145,78 @@ header label:hover {
 }
 
 .menu li {
-  width: 10em;
+  width: 9em;
 }
 
 .menu li:hover {
-  background: rgba(0,0,0,0.3);
+  /* background: rgba(0,0,0,0.3); */
 }
 
 .menu li a {
   display: block;
   padding: 15px 20px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: lighter;
   color: #72A1A2;
   text-decoration: none;
+}
+
+
+.menu li a:hover {
+  color: #ACCECF;
+}
+
+/*HomePage*/
+#banner {
+  min-height: 280px;
+  background-color: #394144;
+  padding: 20px;
+}
+
+#banner-container {
+  width: 100%;
+  display: flex;
+}
+
+#banner-texto {
+  width: 50%;
+  margin: auto;
+}
+
+#banner-texto h1 {
+  font-size: 35px;
+  color: #D6D6D6;
+}
+
+#boton-clickme {
+  height: 55px;
+  width: 220px;
+  font-family: "yanone kaffeesatz", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ffffff;
+  background: linear-gradient(0deg, #D01C02, #EA3619);
+  border: 0;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+#boton-clickme:hover{
+  cursor: pointer;
+  background: linear-gradient(0deg, #D9351C, #F5533B);
+}
+
+
+#banner-imagen {
+  width: 50%;
+  padding: 10px;
+}
+
+#imagenbanner {
+  width: 100%;
+  border: 10px solid;
+  color: white;
+  margin-top: 15px;
 }
 
 
@@ -485,6 +543,25 @@ header label:hover {
   }
 
   #footer-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+
+  /*HomePage*/
+  #banner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #banner-texto {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #banner-imagen {
     width: 100%;
     padding: 10px;
   }
