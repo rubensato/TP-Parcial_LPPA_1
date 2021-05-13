@@ -1,0 +1,221 @@
+/*archivo css del sitio web a copiar para presentar como TP Parcial 1 de LPPA 2021 UAI Rosario*/
+
+
+/* --- RESET CSS --- */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*  --- ACA EMPIEZA LA ESTILIZACION DEL SITIO --- */
+/*parametros generales*/
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "yanone kaffeesatz";
+    src: url("YanoneKaffeesatz-Light.otf");
+}
+
+body{
+  background-color: #F7F7F7;
+  color: #B48097;
+  font-family: "yanone kaffeesatz", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+}
+
+/*encabezado - menu*/
+header {
+  width: 100%;
+  background: #2B3034;
+}
+
+#logo {
+  float:left;
+}
+
+#logo h1 {
+  font-size: 35px:
+  color: #fff;
+}
+
+#menu-links {
+  float:right;
+}
+
+#btn-menu {
+  display: none;
+}
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30 px;
+  padding: 10px;
+  bordel-right: 1px solid #fff;
+}
+
+.hrcolor {
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #3E484A;
+}
+
+header label:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.3);
+}
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+}
+
+.menu li:hover {
+  background: rgba(0,0,0,0.3);
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #72A1A2;
+  text-decoration: none;
+}
+
+
+/*footer*/
+#main-footer{
+  background: #CDD2D6;
+  color: #97A7AD;
+  text-align: center;
+  padding: 20px;
+}
+
+
+#main-footer a {
+  color: #97A7AD;
+  text-decoration: none;
+}
+
+#main-footer a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#main-footer abbr {
+  text-decoration: none;
+}
+
+
+/*media queries - comportamiento responsivo*/
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 880px) {
+
+}
+
+
+@media (max-width: 768px) {
+  .container{
+    width: 100%;
+    margin: 0;
+  }
+
+  #logo {
+    float:right;
+    width: 90%;
+    text-align: center;
+  }
+
+  #menu-links {
+    float:left;
+  }
+
+  header label {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    background: #4e94ab;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu li {
+    border-top: 1px solid #fff;
+  }
+
+  #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
+}
