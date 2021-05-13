@@ -343,9 +343,9 @@ header label:hover {
 
 .about-box2 li {
   padding-left: 2rem;
-  background-image: url("./img/vineta-item.jpg");
+  background-image: url("../img/vineta-item.jpg");
   background-position: 0 0;
-  background-size: 20px 20px;
+  background-size: 30px 30px;
   background-repeat: no-repeat;
   font-size: 20px;
   height: 60px;
