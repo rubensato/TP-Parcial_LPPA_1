@@ -187,7 +187,7 @@ header label:hover {
 
 #links-area {
   width: 64%;
-  padding: 20px;
+  padding: 10px;
 }
 
 #links-container {
@@ -220,7 +220,7 @@ header label:hover {
 
 #footer-info {
   width: 36%;
-  padding: 20px;
+  padding: 10px;
 }
 
 #footer-info p{
@@ -231,7 +231,7 @@ header label:hover {
 #footer-firma {
   width: 100%;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
 }
 
 #footer-firma p{
@@ -297,5 +297,33 @@ header label:hover {
 
   #btn-menu:checked ~ .menu {
     margin: 0;
+  }
+
+  #footer-links {
+    flex-direction:column-reverse;
+  }
+
+  #links-area {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #footer-info {
+    width: 100%;
+    padding: 10px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  #links-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .links-box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
