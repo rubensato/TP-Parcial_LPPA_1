@@ -259,6 +259,101 @@ header label:hover {
   color: #fff;
 }
 
+.image-news {
+  width: 100%;
+  border: 10px solid;
+  color: white;
+  margin-top: 15px;
+}
+
+#about {
+  background-color: #F7F7F7;
+}
+
+#about h1{
+  font-size: 27px;
+  color: #825177;
+  margin-bottom: 5px;
+}
+
+#about h2 {
+  font-size: 22px;
+  color: #A6C9EA;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#about-main {
+  width: 34%;
+}
+
+.about-box1 {
+  width: 95%;
+  background-color: #fff;
+  border-right: 2px solid #E3E3E3;
+  border-bottom: 2px solid #E3E3E3;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about-box1 p {
+  font-size: 18px;
+  line-height: 2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+#imagenabout1 {
+  align-self: center;
+  width: 100%;
+  color: white;
+  margin-top: 15px;
+}
+
+
+#about-more {
+  width: 66%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-box2 {
+  width: 50%;
+  background-color: #fff;
+  border-right: 2px solid #E3E3E3;
+  border-bottom: 2px solid #E3E3E3;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.about-box2 ul {
+  margin-top: 25px;
+  flex-direction: column;
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.about-box2 li {
+  padding-left: 2rem;
+  background-image: url("./img/vineta-item.jpg");
+  background-position: 0 0;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  height: 60px;
+  border-bottom: 1px solid #E2E6E8;
+}
+
+
+
 
 /*One Column*/
 #onecolumn {
@@ -618,6 +713,20 @@ header label:hover {
   }
 
 
+  #about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-main {
+    width: 100%;
+  }
+
+  #about-more {
+    width: 100%;
+  }
+
   /*three column*/
   #threecolumn-1 {
     width: 100%;
@@ -665,5 +774,15 @@ header label:hover {
   .news-box {
     width: 100%;
     margin: 10px;
+  }
+
+  #about-more {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-box2 {
+    width: 100%;
   }
 }
