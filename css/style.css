@@ -219,6 +219,46 @@ header label:hover {
   margin-top: 15px;
 }
 
+#news {
+  background-color: #31363A;
+}
+
+#news-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.news-doble {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.news-box {
+  width: 50%;
+  margin: 10px;
+}
+
+.news-box h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.news-box p {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.news-box a {
+  font-size: 18px;
+  color: #fff;
+}
+
 
 /*One Column*/
 #onecolumn {
@@ -228,8 +268,7 @@ header label:hover {
 
 #onecolumn-1 {
   width: 100%;
-  background-color: white;
-  line-height: 2em;
+  background-color: white;#B48097
   padding: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -566,6 +605,19 @@ header label:hover {
     padding: 10px;
   }
 
+  #news-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .news-doble {
+    width: 100%;
+  }
+
+
   /*three column*/
   #threecolumn-1 {
     width: 100%;
@@ -597,5 +649,21 @@ header label:hover {
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  /*HomePage*/
+  #boton-clickme {
+    width: 100%;
+  }
+
+  .news-doble {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-box {
+    width: 100%;
+    margin: 10px;
   }
 }
